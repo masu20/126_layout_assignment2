@@ -1,0 +1,143 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}ss
+
+header{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1000px;
+    overflow: hidden;}
+
+.logo{
+    width: 20%;
+    float: left;
+ }
+
+nav{
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 46px 18px;
+    display: block;
+    color: #333;
+    transition: transform .2s;
+    animation-delay: 5s;
+}
+nav ul li a:hover{
+    color: #03A9F4;
+    transform: scale(1.5);
+    font-size: 13px;
+}
+
+
+/* -- info-section -- */
+
+.info-section{
+    margin: 0;
+}
+
+.info{
+    float: left;
+    width: 30.33%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:;
+    background: lightgrey;
+    margin: 15px;
+    margin-height: 100%;
+    box-shadow: 5px -5px 7px 1px #8e8b8ba1;
+}
+
+/* -- info-section -- */
+
+
+/* -- gallery-section --*/
+
+
+.gallery-section{
+    width: 1000px;
+    margin: 0 auto;
+    background: #d3d3d38f;
+}
+
+.heading{}
+
+h1{
+    margin: 0;
+    font-size: 45px;
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery{
+    width: 333.33px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #d3d3d38f;
+}
+
+.gallery img{
+    max-width: 100%;
+}
+
+/* -- gallery-section --*/
+
+/* -- footer-section --*/
+.footer-section{
+    background-color: #5755b8;
+    padding: 40px 0;
+    width: 1000px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+.left ul{}
+.left ul li{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.right{
+    float: right;
+    padding-right: 20px;
+}
+.right ul{
+}
+.right ul li{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.right ul li a{
+    text-decoration: none;
+    color: white;
+}
+.right ul li a:hover{
+    color: #FFEB3B;
+}
+
+/* -- footer-section --*/
+
